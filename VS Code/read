@@ -1,0 +1,17 @@
+VS Code plagins расширения
+ 
+Angular Snippets от John Papa
+ES7 React / Redux / GraphQL / React-Native snippets от dsznajder
+React Native Tools от Microsoft
+Live Server от Ritwick Dey
+Code Runner от Jun Han
+Python от Microsoft
+Material Theme от Mattia Astronio
+Angular Language Service от Angular
+
+View -> Editor Layout -> Split Right  разделить экран
+File -> Preferences -> Settings. Введите “code runner run in terminal”
+
+View -> Command Palette (Ctrl+Shift+P)
+палитры команд Create New Blank Jupyter Notebook  создать файл .ipynb
+
