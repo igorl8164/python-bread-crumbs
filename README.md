@@ -2,9 +2,7 @@
 python examples notes and help
 
 
-python -
-        |
-        - VS Code
-        |
-        - resourсe help
+*python
+  *VS Code
+  *resourсe help
 
