@@ -1,0 +1,25 @@
+
+MicroPython Basics: Load Files & Run Code with Tony D! @micropython #LIVE
+https://www.youtube.com/watch?v=hrjtAYMrxF4
+
+Quick reference for the ESP32
+http://docs.micropython.org/en/latest/esp32/quickref.html
+
+
+[ESP32#4] MicroPython - Autostart on boots up and Access file System | Ampy
+https://www.youtube.com/watch?v=7NO2PixeL7g
+
+[ESP32#6] microPyton and OLED SSD1306 Display interface
+https://www.youtube.com/watch?v=WYxiG-bh-0A&list=PLfofoPIIIf0m6MyeDSsda4WqSgc5U2FRL&index=5
+
+Install ampy   Adafruit MicroPython tool
+https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy
+
+File Operations  ampy
+https://learn.adafruit.com/micropython-basics-load-files-and-run-code/file-operations
+
+Boot Scripts
+https://learn.adafruit.com/micropython-basics-load-files-and-run-code/boot-scripts
+
+Micropython Workshop’s documentation
+https://micropython-workshop.readthedocs.io/en/latest/index.html
