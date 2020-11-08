@@ -1,0 +1,19 @@
+========================================================
+argparse
+
+# https://docs.python.org/3/library/argparse.html
+
+import argparse
+
+parser = argparse.ArgumentParser(description='Description arguments')
+parser.add_argument('name', type=str, help='Help string fo name')
+parser.add_argument(‘-m’, ‘--my_optional’, default=2, help='integer (default: 2)')
+args = parser.parse_args()
+print(args.name)
+# nargs=’*’  choices
+
+python file.py --help
+
+python file.py inname --my_optional=3
+
+=============================================

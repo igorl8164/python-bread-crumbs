@@ -15,3 +15,19 @@ File -> Preferences -> Settings. Введите “code runner run in terminal�
 View -> Command Palette (Ctrl+Shift+P)
 палитры команд Create New Blank Jupyter Notebook  создать файл .ipynb
 
+=============================================
+EXTENSIONS
+ext install TabNine.tabnine-vscode
+Settings → Editor: Accept Suggestion On Enter and setting it to off.
+Command Palette (Ctrl+Shift+P) TabNine
+==============================================
+VS Code Run sudo
+
+Run -> Open configurations 
+launch.json  Ctrl+Space 
+add "sudo": true
+To debug an app that requires administrator privileges,
+use "console": "externalTerminal" and "sudo": "True"
+https://code.visualstudio.com/docs/python/debugging
+
+==============================================
