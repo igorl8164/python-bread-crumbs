@@ -1,0 +1,117 @@
+# sqlite help
+
+# http://sqlitetutorials.com/sqlite-intro.html#contact
+
+relational database -> 
+	Database -> collection tables
+	Table -> organized Record (or row) Field (or column)
+	Record
+	Field
+
+ 
+SELECT * FROM TableNamme; # Fetch all the data form the table
+
+keywords:
+aggregate functions
+ALTER TABLE
+ANALYZE
+ATTACH DATABASE
+BEGIN TRANSACTION
+comment
+COMMIT TRANSACTION
+core functions
+CREATE INDEX
+CREATE TABLE
+CREATE TRIGGER
+CREATE VIEW
+CREATE VIRTUAL TABLE
+date and time functions
+DELETE
+DETACH DATABASE
+DROP INDEX
+DROP TABLE
+DROP TRIGGER
+DROP VIEW
+END TRANSACTION
+EXPLAIN
+expression
+INDEXED BY
+INSERT
+keywords
+ON CONFLICT clause
+PRAGMA
+REINDEX
+RELEASE SAVEPOINT
+REPLACE
+ROLLBACK TRANSACTION
+SAVEPOINT
+SELECT
+UPDATE
+VACUUM
+WITH clause
+
+#
+Functions
+  SqLite - Functions
+  SqLite - Avg()
+  SqLite - Count()
+  SqLite - First()
+  SqLite - Last()
+  SqLite - Max()
+  SqLite - Min()
+  SqLite - Sum()
+  SqLite - Group By
+  SqLite - Having
+  SqLite - Ucase()
+  SqLite - Lcase()
+  SqLite - Mid()
+  SqLite - Len()
+  SqLite - Round()
+  SqLite - Now()
+  SqLite - Format()
+
+Content
+  SqLite - Syntax
+  SqLite - Data Types
+  SqLite - Create DB
+  SqLite - Create Table
+  SqLite - Select
+  SqLite - Distinct
+  SqLite - Where
+  SqLite - And & Or
+  SqLite - Order By
+  SqLite - Insert Into
+  SqLite - Update
+  SqLite - Delete
+  SqLite - Injection
+  SqLite - Select Top
+  SqLite - Like
+  SqLite - Wildcards
+  SqLite - In
+  SqLite - Between
+  SqLite - Aliases
+  SqLite - Joins
+  SqLite - Inner Join
+  SqLite - Left Join
+  SqLite - Right Join
+  SqLite - Full Join
+  SqLite - Union
+  SqLite - Select Into
+  SqLite - Insert Into Select
+  SqLite - Constraints
+  SqLite - Not Null
+  SqLite - Unique
+  SqLite - Primary Key
+  SqLite - Foreign Key
+  SqLite - Check
+  SqLite - Default
+  SqLite - Create Index
+  SqLite - Drop
+  SqLite - Alter
+  SqLite - Auto Increment
+  SqLite - Views
+  SqLite - Dates
+  SqLite - Null Values
+  SqLite - Null Functions
+  SqLite - Data Types
+  SqLite - DB Data Types
