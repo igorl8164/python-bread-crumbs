@@ -16,4 +16,6 @@ python3 -m pip install --upgrade Cython pillow
 ```sh
 python3 -m pip install kivy
 ```
-![N|Solid](./image/01.png)
+![setup1](./image/01.png)
+
+![setup2](./image/02.png)
