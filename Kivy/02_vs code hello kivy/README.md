@@ -1,11 +1,12 @@
 ### VS Code
-
+```sh
 pi@raspberrypi:~ $ mkdir vscode
 
 pi@raspberrypi:~ $ hostname -I
 
 pi@raspberrypi:~ $ ifconfig eth0
 inet 192.168.1.2 
+```
 
 ![01](./image/01.png)
 ![02](./image/02.png)
