@@ -1,4 +1,4 @@
-###Setup Kivy on Raspberri Py 3b+
+### Setup Kivy on Raspberri Py 3b+
 [kivy.org Installation on Raspberry Pi](https://kivy.org/doc/stable/installation/installation-rpi.html)
 ```sh
 sudo apt update
