@@ -1,0 +1,22 @@
+<FirstWindow>:
+    name: "first"
+
+    BoxLayout:
+        orientation: "vertical"
+        size: root.width, root.height
+        padding: 10  # [padding_left, padding_top, padding_right, padding_bottom]
+    
+        Label:
+            text: 
+                ("[b]First [color=ff0000]Screen[/color][/b]")
+            markup: True
+            font_size: 32
+
+        Button:
+            text: "Next Screen"
+            font_size: 32
+            on_release: 
+            # on_press:
+                print('go second')
+                app.root.current = "second"
+                root.manager.transition.direction = "left"  # up down 
