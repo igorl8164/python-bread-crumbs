@@ -108,6 +108,7 @@ SELECT * FROM users
 ```
 ### Фильтр
 WHERE
+
 SELECT col1, col2, … FROM <table_name> WHERE <условие>
 ```
 SELECT * FROM users WHERE score < 1000
@@ -660,6 +661,12 @@ with con:
 
 ---
 ## sqlite help
+
+[docs.python.org](https://docs.python.org/3.8/library/sqlite3.html?highlight=sqlite#module-sqlite3)
+
+[sqlite.org](https://www.sqlite.org/docs.html)
+
+[sqlitetutorial.net](https://www.sqlitetutorial.net/)
 
 [SQLite tutorials](http://sqlitetutorials.com/sqlite-intro.html#contact)
 
