@@ -1,0 +1,13 @@
+str_bs = BS(w, features="html.parser")  #  features="html.parser")  'lxml'
+
+#p = str_bs.prettify()
+#print(p)
+
+
+# /watch?v=
+
+
+r = str_bs.findAll('h3', class_="style-scope ytd-playlist-video-renderer")  #('ytd-playlist-panel-video-renderer')  # , class_="style-scope ytd-app")#  {'id': "video-title", 'class': "style-scope ytd-playlist-video-renderer"})  # {'id': "contents"} , 'class': "style-scope ytd-playlist-video-list-renderer"
+print(str_bs.element_classes)
+print(r)
+print(len(r))

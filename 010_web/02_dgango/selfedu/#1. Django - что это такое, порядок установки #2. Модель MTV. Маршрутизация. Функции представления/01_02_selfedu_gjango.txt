@@ -1,0 +1,71 @@
+ConEmu
+
+$ python3 --version
+Python 3.8.8
+
+$ python3 -m pip install --upgrade pip
+$ cd Z:\tmp\selfedu_django\01_code\djsite
+
+$ python3 -m venv dj_venv
+
+$ .\dj_venv\Scripts\activate  # source dj_venv\bin\activate  # in linux
+
+(dj_venv) Slava@DESKTOP-W3670 Z:\tmp\selfedu_django\01_code\djsite
+$ pip list
+
+$ deactivate
+
+
+PyCarm
+File -> Open Z:\tmp\selfedu_django\01_code\djsite
+Terminal -> (dj_venv) Z:\tmp\selfedu_django\01_code\djsite>
+(dj_venv) Z:\tmp\selfedu_django\01_code\djsite> pip install django
+>pip list
+
+>django-admin  # команды ядра фреймворка django
+>django-admin startproject coolsite
+>cd coolsite 
+(dj_venv) Z:\tmp\selfedu_django\01_code\djsite\coolsite>
+>
+------------------------------------------------------------------------
+# site <- (app + app + ... + app) сайт <- приложение_1 + приложение_2 + ... + приложение_н
+создание приложения(й) на сайте
+..\coolsyte>python manage.py startapp women
+
+coolsyte/women
+	migration # работа с базами данных
+	__init__.py # файл пакета
+	admin.py  # настройка админ панели связь
+	apps.y  # настройка кнфигурирование екущего приложения 
+	models.py  # orm модели из базы данных 
+	tests.py  # тестирующие процедуры 
+	views.py  # хранение онтроллеров представлений
+
+регистрация приложения на сайте 
+..\coolsyte\coolsyte\settings.py> 
+INSTALLED_APPS = [..., 'women.apps.WomenConfig' ]
+
+обработчик представления
+	класс 
+	или
+	функция
+coolsyte/women/views.py 
+имя лбое (имя траници)
+def index(request):  # класс запроса HttpRequest
+    return HttpResponse("страница приложения women")  # ответ формирует страницу
+	
+
+
+настройка маршрутизации urls
+связь представления с функцией адреса
+..\coolsyte\coolsyte\urls.py
+from women.views import index
+urlpatterns = [ ... , path('women/', index), ]
+
+или 
+для передачи списка адресов и связаных с ним представлений
+
+from django.urls import path, include
+urlpatterns = [ ... , path('wom/', include('women.urls_wom')), ]
+
+создаем файл women\urls_wom.py
