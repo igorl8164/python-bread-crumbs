@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb8825f3-7fd8-43ff-a324-d0f78be437e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#1. Django - что это такое, порядок установки #2. Модель MTV. Маршрутизация. Функции представления/01_02_selfedu_gjango.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#1. Django - что это такое, порядок установки #2. Модель MTV. Маршрутизация. Функции представления/dj.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#3. Маршрутизация, обработка исключений запросов, перенаправления/#3_selfedu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#3. Маршрутизация, обработка исключений запросов, перенаправления/dj.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#4. Определение моделей. Миграции создание и выполнение/04_selfedu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#4. Определение моделей. Миграции создание и выполнение/dj.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#5. CRUD - основы ORM по работе с моделями/5_selfedu_dj.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#5. CRUD - основы ORM по работе с моделями/dj.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#6. Шаблоны (templates). Начало/#6 selfedu django.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#6. Шаблоны (templates). Начало/#6 selfedu django.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/#6. Шаблоны (templates). Начало/dj.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2.tar.xz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/iconengines/libqsvgicon.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/imageformats/libqgif.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/imageformats/libqicns.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/imageformats/libqico.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/imageformats/libqjpeg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/imageformats/libqsvg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/imageformats/libqtga.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/imageformats/libqtiff.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Concurrent.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Concurrent.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Concurrent.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Concurrent.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Core.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Core.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Core.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Core.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5DBus.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5DBus.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5DBus.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5DBus.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Gui.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Gui.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Gui.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Gui.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Network.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Network.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Network.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Network.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5PrintSupport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5PrintSupport.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5PrintSupport.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5PrintSupport.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Script.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Script.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Script.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Script.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Svg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Svg.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Svg.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Svg.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Widgets.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Widgets.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Widgets.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Widgets.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5XcbQpa.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5XcbQpa.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5XcbQpa.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5XcbQpa.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Xml.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Xml.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Xml.so.5.15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libQt5Xml.so.5.15.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libcoreSQLiteStudio.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libcoreSQLiteStudio.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libcoreSQLiteStudio.so.1.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libcoreSQLiteStudio.so.1.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libguiSQLiteStudio.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libguiSQLiteStudio.so.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libguiSQLiteStudio.so.1.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libguiSQLiteStudio.so.1.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicudata.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicudata.so.56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicudata.so.56.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicui18n.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicui18n.so.56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicui18n.so.56.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicuuc.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicuuc.so.56" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libicuuc.so.56.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libreadline.so.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/lib/libtinfo.so.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/platforms/libqxcb.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/platformthemes/libqgtk3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libConfigMigration.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libCsvExport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libCsvImport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libDbAndroid.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libDbSqliteCipher.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libDbSqliteWx.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libHtmlExport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libJsonExport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libMultiEditorImage.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libPdfExport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libPrinting.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libRegExpImport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libScriptingTcl.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libSqlEnterpriseFormatter.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libSqlExport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libSqlFormatterSimple.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/plugins/libXmlExport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/printsupport/libcupsprintersupport.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/sqlitestudio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/sqlitestudiocli" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../02_dgango/selfedu/sqlitestudio-3.3.2/SQLiteStudio/styles/libFusionDarkStyle.so" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1pZtWJ99qmXJN4cOdPARW4RtP5g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../#15. Классы представлений ListView, DetailView, CreateView/dj" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Yandex.Disk\Python\python-bread-crumbs\010_web\02_django\selfedu\#10. Начинаем работу с админ-панелью\dj\coolsyte\women\static\women\images" />
+      <recent name="E:\Yandex.Disk\Python\python-bread-crumbs\010_web\02_dgango\selfedu\#7. Подключение статических файлов. Фильтры шаблонов\dj\coolsyte\women\templates\women" />
+      <recent name="$PROJECT_DIR$/coolsyte/women/templates/women" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Yandex.Disk\Python\python-bread-crumbs\010_web\02_dgango\selfedu\#7. Подключение статических файлов. Фильтры шаблонов\dj\coolsyte\women\static\women\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="dj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coolsyte" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coolsyte/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb8825f3-7fd8-43ff-a324-d0f78be437e4" name="Default Changelist" comment="" />
+      <created>1615402471328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615402471328</updated>
+      <workItem from="1615402477849" duration="433000" />
+      <workItem from="1615476012708" duration="3990000" />
+      <workItem from="1615727451101" duration="5804000" />
+      <workItem from="1615830719275" duration="1178000" />
+      <workItem from="1615894386071" duration="6357000" />
+      <workItem from="1615904498268" duration="3177000" />
+      <workItem from="1616165938057" duration="5076000" />
+      <workItem from="1616229537522" duration="8016000" />
+      <workItem from="1616247209204" duration="1554000" />
+      <workItem from="1616249267593" duration="2253000" />
+      <workItem from="1616253576005" duration="3552000" />
+      <workItem from="1616260631867" duration="1463000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dj$manage.coverage" NAME="manage Coverage Results" MODIFIED="1616260733139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coolsyte" />
+  </component>
+</project>

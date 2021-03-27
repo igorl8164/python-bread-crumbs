@@ -1,0 +1,79 @@
+#4. Определение моделей. Миграции: создание и выполнение
+https://www.youtube.com/watch?v=k1wZKx6nMjg&list=PLA0M1Bcd0w8xO_39zZll2u1lz_Q-Mwn1F&index=5
+https://proproprogs.ru/django/opredelenie-modeley-migracii-sozdanie-vypolnenie
+
+
+SQLite, MySQL, PostgreSQL, Oracle и другие.
+взаимодействия с таблицами БД технологии ORM (Object-Relational Mapping)
+
+настройка БД settings.py
+# Database
+# https://docs.djangoproject.com/en/3.1/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
+DBSQLiteStudio  https://sqlitestudio.pl
+
+объявить класс модели с полями
+выполнить миграцию
+
+women/models.py
+from django.db import models
+
+# Create your models here.
+class Women(models.Model):
+    title = models.CharField(max_length=255)
+    content = models.TextField(blank=True)  # blank=True поле может быть устым
+    photo = models.ImageField(upload_to="photos/%Y/%m/%d/")  # upload_to папка загрузки изображений  "%Y/%m/%d" шаблон
+    time_create = models.DateTimeField(auto_now_add=True)  # фиксировать текущее время только в момент первого добавления записи в таблицу БД
+    time_update = models.DateTimeField(auto_now=True)  # фиксирует текущее время всякий раз при изменении или добавлении записи в таблицу БД
+    is_published = models.BooleanField(default=True)  # True статья будет считаться опубликованной
+
+поля id. создается автоматически
+«ORM и работа с базой данных» перейти по ссылке «Типы полей»
+https://djbook.ru/rel3.0/ref/models/fields.html
+
+автоматически выполнять операции загрузки графических файлов
+settings.py 
+DEBUG = True
+
+MEDIA_ROOT 
+MEDIA_URL
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # ссылаться на папку media создаст автоматически 
+MEDIA_URL = '/media/'   # добавлять к URL графических файлов префикс media
+
+отладочный веб-сервер, нужно сэмулировать работу
+в файл urls.py
+добавляем еще один маршрут для статических данных – графических файлов
+только в отладочном режиме.
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+	
+миграций приложения
+создать таблицу в БД на основе описанной модели
+ORM интерфейс
+выполнении файла миграции в БД автоматически создаются новые или изменяются прежние таблицы
+\dj\coolsyte>python manage.py makemigrations
+
+файл миграции 
+women\migrations\0001_initial.py
+
+посмотреть SQL-запрос, который будет выполнен при использовании данной миграции
+python manage.py sqlmigrate women 0001
+
+BEGIN;
+--
+-- Create model Women
+--
+CREATE TABLE "women_women" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(255) NOT NULL, "content" text NOT NULL, "photo" varchar(100) NOT NULL, "time_create" datet
+ime NOT NULL, "time_update" datetime NOT NULL, "is_published" bool NOT NULL);
+COMMIT;
+
+миграция, создания таблици базы данных
+python manage.py migrate
