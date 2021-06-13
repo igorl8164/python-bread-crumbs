@@ -1,0 +1,55 @@
+import mouse
+import sys
+import time
+
+# https://pynput.readthedocs.io/en/latest/mouse.html
+
+# https://www.thepythoncode.com/article/control-mouse-python
+# https://github.com/boppreh/mouse#api
+# https://pypi.org/project/MouseInfo/
+# pip3 install MouseInfo
+
+def callback():
+    global stop
+    print('callback on_middle_click')
+    stop = True
+
+stop = False
+
+mp = mouse.get_position()
+pprint(mp)
+
+mouse.on_middle_click(callback, args=())
+
+tn = time.time_ns()
+tp = tn
+while True:
+    time.sleep(0.01)
+    m = mouse.is_pressed("middle")
+    if m:
+        t = time.time_ns()
+        dt = t - tp
+        tp = t
+        print('mouse middle', t - tn, dt)
+    if stop:
+        break
+
+print('exit')
+# exit(0)
+
+
+# https://pynput.readthedocs.io/en/latest/mouse.html
+# https://pypi.org/project/pynput/
+# https://nitratine.net/blog/post/simulate-mouse-events-in-python/#installing-pynput
+from pynput import mouse
+
+with mouse.Events() as events:
+    # Block at most one second
+    event = events.get(1.0)
+    if event is None:
+        print('You did not interact with the mouse within one second')
+    else:
+        print('Received event {}'.format(event))
+
+exit(0)
+

@@ -1,0 +1,1 @@
+[deploy Django project to PythonAnyWhere server](https://www.youtube.com/watch?v=MUKRBVht2ok)

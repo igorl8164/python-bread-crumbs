@@ -1,0 +1,232 @@
+
+https://www.youtube.com/watch?v=XZoTukqekzY
+Как развернуть проект Django на Heroku
+
+проект сайта на django
+pip install gunicorn django-heroku
+
+в корне проекта создаем файл
+runtime.txt
+в файле прописываем
+python-3.7.4
+
+создаем файл 
+Procfile
+web gunicorn mysite.wsgi:apllication --log-file -
+
+pip freeze > requirements.txt
+создает в корне проекта файл requirements.txt
+
+
+settings.py  ->
+
+import django_heroku
+import dj_database_url
+
+в конце файла
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'), )
+django_heroku.settings(locals())
+
+ALLOWED_HOSTS = ['*']  # 'mysite.com'
+
+
+в консоле 
+heroku 
+git
+
+heroku login
+heroku create mysite_unic_name
+
+git status
+git init
+git status
+git remote -v
+git remote add heroku https://git.heroku.com/mysite_unic_name.git
+git remote -v
+git status 
+git add .
+git commit -m "the first time commit heroku"
+git push heroku master
+
+в броузере
+mysite_unic_name.herokuapp.com
+
+
+
+
+https://www.youtube.com/watch?v=UkokhawLKDU
+Heroku Webhosting for Django - Python Django Dentist Website #12
+
+in git bash
+
+heroku --version
+clear
+pip install gunicorn 
+pip install django-heroku
+
+pip install dj_database__url
+clear
+pip install python-decouple
+clear
+pip install whitenoise
+
+
+профаил 
+touth Procfile
+
+web: gunicorn <name_syte_project_django>.wsgi
+имя проекта можно посмотреть в wsgi.py
+ 
+pip freeze
+pip freeze > requirements.txt
+
+settings.py
+
+import django_heroku
+import dj_database_url
+from decouple import config
+
+MIDDLEWARE = [
+
+....
+'whitenoise.middleware.WhiteNoiseMiddleware', 
+
+]
+
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
+django_heroku.settings(locals())
+
+
+git add .
+git commit -am 'add for heroku'
+git push
+
+heroku login
+
+ctrl+c Y
+clear
+
+pwd
+mkdir .ssh
+cd .ssh
+pwd
+ssh-keygen.exe
+ls
+cat id_rsa.pub
+
+# .ssh\id_rsa.pub
+heroku keys:add
+y
+
+heroku create
+
+copy url
+insert to brouzer
+https://floatihg-stream-4705.herokuapp.com
+
+heroku rename docj
+
+https://docj.herokuapp.com
+ 
+git push heroku master
+
+heroku config:set DISABLE_COLLECTSTATIC=1  # или STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') в settings.py
+
+git push heroku master
+
+https://docj.herokuapp.com
+
+
+https://www.youtube.com/watch?v=PSsKiY9P2mU
+BENZAK #05: запуск Django на Heroku
+
+
+https://www.youtube.com/watch?v=6DI_7Zja8Zc&t=251s
+Python Django Tutorial: Deploying Your Application (Option #2) - Deploy using Heroku
+
+
+https://www.youtube.com/watch?v=Li0Abz-KT78
+Push Flask Apps To Heroku For Webhosting - Python and Flask #11
+Codemy.com
+
+
+https://dev.to/towernter/hosting-a-python-script-on-heroku-using-github-khj
+Hosting a Python script on Heroku using GitHub
+
+https://stackoverflow.com/questions/39139165/running-simple-python-script-continuously-on-heroku
+https://github.com/michaelkryukov/heroku-python-script
+
+https://dashboard.heroku.com/apps
+
+--------------------------------------------------------------------------------
+
+Slava@DESKTOP-W3670 MINGW64 ~
+$ heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/69fa3d41-de6d-4363-8d12-4ff98de494ca?requestor=SFMyNTY.g2gDbQAAAA45MS4yNDYuMTE1LjExN24GAFJQMoh4AWIAAVGA.ONYGhDlQjB_5EfkHyAYJdebHhoEpLtdus6iVljAVBGQ
+heroku: Waiting for login...
+Logging in... done
+Logged in as igorl8164@gmail.com
+
+^C^CTerminate batch job (Y/N)? y
+y
+
+Slava@DESKTOP-W3670 MINGW64 ~
+
+
+Slava@DESKTOP-W3670 MINGW64 ~
+$ heroku create
+Creating app... done, arcane-earth-18477
+https://arcane-earth-18477.herokuapp.com/ | https://git.heroku.com/arcane-earth-18477.git
+
+Slava@DESKTOP-W3670 MINGW64 ~
+
+
+Slava@DESKTOP-W3670 MINGW64 ~
+$ heroku open -a arcane-earth-18477
+
+Slava@DESKTOP-W3670 MINGW64 ~
+
+
+Slava@DESKTOP-W3670 MINGW64 ~
+$ heroku run bash -a arcane-earth-18477
+Running bash on arcane-earth-18477... starting, run.2595 (Free)
+Running bash on arcane-earth-18477... connecting, run.2595 (Free)Running bash on arcane-earth-18477... up, run.2595 (Free)
+~ $ ls -a
+ls -la
+total 8
+drwx------  2 u16420 dyno 4096 Mar 31 12:15 .
+drwxr-xr-x 11 root   root 4096 Mar 23 02:13 ..
+~ $ 
+
+
+
+
+
+
+
+
+
+
+создание приложения на Heroku
+github and hiroku
+https://www.youtube.com/watch?v=GJKuLxoG97c&list=PLETK89ezj02PA1IGPjUQz91FFe68CM_Zu&index=3
+
+
+$ heroku login
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a testappliv
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
