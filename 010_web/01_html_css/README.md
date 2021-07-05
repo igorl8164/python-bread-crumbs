@@ -10,3 +10,11 @@
 
 [Фрилансер по жизни](http://fls.guru/)
 
+[itproger](https://itproger.com/courses/web/page-4)
+
+[itproger справочники](https://itproger.com/spravka/)
+
+[WebReference справочник курсы](https://webref.ru/css)
+
+[freeCodeCamp  Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/)
+
