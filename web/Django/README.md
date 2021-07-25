@@ -8,16 +8,17 @@ model.py  # модель создавать, получать, обновлят�
 		
 	class ClassName_2(models.Model):
 		pass
-		
+
 templates # представление шаблоны формирует внешний вид страници 
 \app\tamplates\app
 		index.html
 		layout.html
 		about.html
 		
+
 <h2> {{ title }} </h2>  # Переменные шаблона
-		
-{% <тег> %}  # теги шаблона
+
+`{% <тег> %}`  # теги шаблона
 
 тег цикла
 '''
@@ -45,12 +46,14 @@ views.py # контроллер логика отображения веб-ст�
 HttpRequest — запрос
 HttpResponse — ответ
 
-		def meth01(request : HttpRequest) -> HttpResponse:
-			return response
-			
-		def meth02(request : HttpRequest) -> HttpResponse:
-			return response
-			
+```python
+	def meth01(request : HttpRequest) -> HttpResponse:
+		return response
+		
+	def meth02(request : HttpRequest) -> HttpResponse:
+		return response
+```
+
 передачи данных от контроллера к представлению
 return render(
         request,
