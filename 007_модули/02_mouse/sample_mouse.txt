@@ -53,3 +53,25 @@ with mouse.Events() as events:
 
 exit(0)
 
+
+
+def callback_x():
+    print('callback x')
+
+def callback_x2():
+    print('callback x2')
+
+X = 'x'
+X2 = 'x2'
+
+UP = 'up'
+DOWN = 'down'
+
+# mouse.on_middle_click(callback, args=())
+
+mouse.on_button(callback_x, args=(), buttons=(X, ), types=(DOWN, ))
+mouse.on_button(callback_x2, args=(), buttons=(X2, ), types=(DOWN, ))
+
+while True:
+    time.sleep(0.01)
+

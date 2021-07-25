@@ -211,11 +211,6 @@ drwxr-xr-x 11 root   root 4096 Mar 23 02:13 ..
 
 
 
-
-
-
-
-
 создание приложения на Heroku
 github and hiroku
 https://www.youtube.com/watch?v=GJKuLxoG97c&list=PLETK89ezj02PA1IGPjUQz91FFe68CM_Zu&index=3
@@ -230,3 +225,46 @@ $ heroku git:remote -a testappliv
 $ git add .
 $ git commit -am "make it better"
 $ git push heroku master
+
+
+--------------------------------------------------
+https://www.youtube.com/watch?v=JRCln3DkfBo
+Деплой Telegram бота на Heroku! Webhook + Github + Python
+
+https://www.youtube.com/watch?v=jC55EM-PP6Q
+Деплой Python Telegram бота на Heroku! Бот больше не засыпает!
+
+https://www.youtube.com/watch?v=0tQlhMCncRU
+Создаем бесплатную базу PostgreSQL в Heroku.
+
+
+[SCANLIBS] Computer Science, Algorithms and Complexity
+https://scanlibs.com/computer-science-algorithms-complexity/
+
+[SCANLIBS] 1000 Python Examples
+[SCANLIBS] Learning Algorithms Through Programming and Puzzle Solving
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
+[SCANLIBS] 
